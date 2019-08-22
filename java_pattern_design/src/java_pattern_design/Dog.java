@@ -18,4 +18,12 @@ public class Dog extends Animal{
 		System.out.println("randNum in the method: " + randNum);
 	}
 	
+	private void bePrivate(){
+		System.out.println("just a private method");
+
+	}
+	
+	public void accessPrivate(){
+		bePrivate();
+	}
 }
